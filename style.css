@@ -4,3 +4,13 @@ body{
 h1{
     color:red;
 }
+#trombi{
+    display:flex
+}
+#trombi div{
+    width:150px;
+    border:solid 1px black;
+}
+#trombi div img{
+    width:100%;
+}

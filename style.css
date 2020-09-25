@@ -5,11 +5,14 @@ h1{
     color:red;
 }
 #trombi{
-    display:flex
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 #trombi div{
     width:150px;
-    border:solid 1px black;
+    box-shadow:  0px 2px 5px 0px rgba(0, 0, 0, 0.399);
+    margin: 5px 0;
 }
 #trombi div img{
     width:100%;
